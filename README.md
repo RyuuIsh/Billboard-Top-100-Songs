@@ -25,3 +25,8 @@ cd Billboard-Spotify-Playlist
 - Implement Spotify login for multiple users.
 
 🎧 Relive the best music from any year – right on your Spotify!
+
+```
+git clone https://github.com/yourusername/Billboard-Spotify-Playlist.git
+cd Billboard-Spotify-Playlist
+```
