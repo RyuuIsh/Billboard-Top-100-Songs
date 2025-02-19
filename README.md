@@ -8,10 +8,28 @@ A Python script that scrapes Billboard's Hot 100 chart for a selected date and c
 - Secure API Authentication – Uses spotipy with OAuth for user authentication.
 
 ## Setup-Instructions
-1. Clone the Repository
+### Clone the Repository
+```
 git clone https://github.com/yourusername/Billboard-Spotify-Playlist.git
 cd Billboard-Spotify-Playlist
-
+```
+### Install Dependencies
+```
+pip install -r requirements.txt
+```
+### Set Up Ennvironmental Variables
+Create a .env file and add:
+```
+SPOTIPY_CLIENT_ID=your_spotify_client_id
+SPOTIPY_CLIENT_SECRET=your_spotify_client_secret
+SPOTIPY_REDIRECT_URI=http://example.com
+```
+### Run the Script
+```
+python main.py
+```
+### Enter a Date
+Type any date in YYYY-MM-DD format (e.g., 2000-07-15) to get the Billboard Hot 100 playlist.
 
 ## Tech-Stack
 - Python – Core programming language
@@ -26,7 +44,4 @@ cd Billboard-Spotify-Playlist
 
 🎧 Relive the best music from any year – right on your Spotify!
 
-```
-git clone https://github.com/yourusername/Billboard-Spotify-Playlist.git
-cd Billboard-Spotify-Playlist
-```
+
